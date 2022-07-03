@@ -1,7 +1,7 @@
 const express = require("express");
 const { MongoClient } = require("mongodb");
 const app = express();
-const port = proses.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 // or as an es module:
 // import { MongoClient } from 'mongodb'
 
